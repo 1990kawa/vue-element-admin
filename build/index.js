@@ -5,14 +5,14 @@ const rawArgv = process.argv.slice(2)
 const args = rawArgv.join(' ')
 const port = process.env.PORT || 3000
 
-console.log(process.env.NODE_ENV)
-
 if (process.env.npm_config_preview || rawArgv.includes('--preview')) {
   const report = rawArgv.includes('--report')
 
   run(`vue-cli-service build ${args}`)
 
   const publicPath = config.publicPath
+
+  console.log(publicPath)
 
   var connect = require('connect')
   var serveStatic = require('serve-static')

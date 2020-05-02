@@ -84,6 +84,29 @@ export const constantRoutes = [
     ]
   },
   {
+    path: '/customers',
+    component: Layout,
+    meta: {
+      title: '顧客',
+      icon: 'peoples'
+    },
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/customers/index'),
+        name: 'Customer',
+        meta: { title: '顧客', icon: 'peoples', affix: true }
+      },
+      {
+        path: ':id(\\d+)',
+        component: () => import('@/views/customers/show'),
+        name: 'ShowCustomer',
+        meta: { title: '詳細', icon: 'peoples', noCache: true },
+        hidden: true
+      }
+    ]
+  },
+  {
     path: '/documentation',
     component: Layout,
     children: [

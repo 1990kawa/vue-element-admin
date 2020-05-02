@@ -9,10 +9,11 @@ const report = rawArgv.includes('--report')
 
 const publicPath = config.publicPath
 
+var connect = require('connect')
+var serveStatic = require('serve-static')
+const app = connect()
+
 async function start() {
-  var connect = require('connect')
-  var serveStatic = require('serve-static')
-  const app = connect()
   
   app.use(
     publicPath,

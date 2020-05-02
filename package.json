@@ -45,6 +45,8 @@
   },
   "dependencies": {
     "axios": "0.18.1",
+    "chokidar": "^3.4.0",
+    "cjs": "^0.0.11",
     "clipboard": "2.0.4",
     "codemirror": "5.45.0",
     "driver.js": "0.9.5",
@@ -86,7 +88,6 @@
     "babel-eslint": "10.0.1",
     "babel-jest": "^25.5.1",
     "chalk": "2.4.2",
-    "chokidar": "^2.1.5",
     "connect": "3.6.6",
     "eslint": "5.15.3",
     "eslint-plugin-vue": "5.2.2",

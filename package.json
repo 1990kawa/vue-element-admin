@@ -86,7 +86,7 @@
     "babel-eslint": "10.0.1",
     "babel-jest": "^25.5.1",
     "chalk": "2.4.2",
-    "chokidar": "2.1.5",
+    "chokidar": "^2.1.5",
     "connect": "3.6.6",
     "eslint": "5.15.3",
     "eslint-plugin-vue": "5.2.2",

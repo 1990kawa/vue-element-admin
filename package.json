@@ -1,8 +1,8 @@
 {
-  "name": "vue-element-admin",
+  "name": "scribe",
   "version": "6.14.4",
   "description": "A magical vue admin. An out-of-box UI solution for enterprise applications. Newest development stack of vue. Lots of awesome features",
-  "author": "Pan <panfree23@gmail.com>",
+  "author": "kawa <ko.with.ja@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vue-cli-service serve",

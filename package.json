@@ -1,12 +1,12 @@
 {
   "name": "vue-element-admin",
-  "version": "4.2.1",
+  "version": "6.14.4",
   "description": "A magical vue admin. An out-of-box UI solution for enterprise applications. Newest development stack of vue. Lots of awesome features",
   "author": "Pan <panfree23@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build:prod": "vue-cli-service build",
+    "build": "vue-cli-service build",
     "start": "vue-cli-service serve",
     "build:stage": "vue-cli-service build --mode staging",
     "preview": "node build/index.js --preview",
